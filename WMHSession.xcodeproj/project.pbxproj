@@ -15,6 +15,9 @@
 		CB6214D61E84F36E000D0EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6214D41E84F36E000D0EA5 /* LaunchScreen.storyboard */; };
 		CB6214E11E84F36E000D0EA5 /* WMHSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6214E01E84F36E000D0EA5 /* WMHSessionTests.m */; };
 		CB6214EC1E84F36E000D0EA5 /* WMHSessionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6214EB1E84F36E000D0EA5 /* WMHSessionUITests.m */; };
+		CB6214FC1E84F6DC000D0EA5 /* SessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6214FB1E84F6DC000D0EA5 /* SessionViewController.m */; };
+		CB6214FF1E850F99000D0EA5 /* 图片1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB6214FD1E850F99000D0EA5 /* 图片1.jpg */; };
+		CB6215001E850F99000D0EA5 /* 图片2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB6214FE1E850F99000D0EA5 /* 图片2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		CB6214E71E84F36E000D0EA5 /* WMHSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMHSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6214EB1E84F36E000D0EA5 /* WMHSessionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHSessionUITests.m; sourceTree = "<group>"; };
 		CB6214ED1E84F36E000D0EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6214F91E84F40E000D0EA5 /* WMHFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMHFile.h; sourceTree = "<group>"; };
+		CB6214FA1E84F6DC000D0EA5 /* SessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionViewController.h; sourceTree = "<group>"; };
+		CB6214FB1E84F6DC000D0EA5 /* SessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionViewController.m; sourceTree = "<group>"; };
+		CB6214FD1E850F99000D0EA5 /* 图片1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "图片1.jpg"; path = "WMHSession/图片1.jpg"; sourceTree = "<group>"; };
+		CB6214FE1E850F99000D0EA5 /* 图片2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "图片2.jpg"; path = "WMHSession/图片2.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		CB6214BA1E84F36E000D0EA5 = {
 			isa = PBXGroup;
 			children = (
+				CB6215011E85112E000D0EA5 /* Image */,
 				CB6214C51E84F36E000D0EA5 /* WMHSession */,
 				CB6214DF1E84F36E000D0EA5 /* WMHSessionTests */,
 				CB6214EA1E84F36E000D0EA5 /* WMHSessionUITests */,
@@ -105,6 +114,9 @@
 				CB6214CA1E84F36E000D0EA5 /* AppDelegate.m */,
 				CB6214CC1E84F36E000D0EA5 /* ViewController.h */,
 				CB6214CD1E84F36E000D0EA5 /* ViewController.m */,
+				CB6214F91E84F40E000D0EA5 /* WMHFile.h */,
+				CB6214FA1E84F6DC000D0EA5 /* SessionViewController.h */,
+				CB6214FB1E84F6DC000D0EA5 /* SessionViewController.m */,
 				CB6214CF1E84F36E000D0EA5 /* Main.storyboard */,
 				CB6214D21E84F36E000D0EA5 /* Assets.xcassets */,
 				CB6214D41E84F36E000D0EA5 /* LaunchScreen.storyboard */,
@@ -138,6 +150,15 @@
 				CB6214ED1E84F36E000D0EA5 /* Info.plist */,
 			);
 			path = WMHSessionUITests;
+			sourceTree = "<group>";
+		};
+		CB6215011E85112E000D0EA5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CB6214FD1E850F99000D0EA5 /* 图片1.jpg */,
+				CB6214FE1E850F99000D0EA5 /* 图片2.jpg */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +228,7 @@
 				TargetAttributes = {
 					CB6214C21E84F36E000D0EA5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KUVD96Z783;
 						ProvisioningStyle = Automatic;
 					};
 					CB6214DB1E84F36E000D0EA5 = {
@@ -246,6 +268,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6215001E850F99000D0EA5 /* 图片2.jpg in Resources */,
+				CB6214FF1E850F99000D0EA5 /* 图片1.jpg in Resources */,
 				CB6214D61E84F36E000D0EA5 /* LaunchScreen.storyboard in Resources */,
 				CB6214D31E84F36E000D0EA5 /* Assets.xcassets in Resources */,
 				CB6214D11E84F36E000D0EA5 /* Main.storyboard in Resources */,
@@ -274,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6214CE1E84F36E000D0EA5 /* ViewController.m in Sources */,
+				CB6214FC1E84F6DC000D0EA5 /* SessionViewController.m in Sources */,
 				CB6214CB1E84F36E000D0EA5 /* AppDelegate.m in Sources */,
 				CB6214C81E84F36E000D0EA5 /* main.m in Sources */,
 			);
@@ -424,9 +449,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KUVD96Z783;
 				INFOPLIST_FILE = WMHSession/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = heheda.WMHSession;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CH999.ch999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -435,9 +461,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KUVD96Z783;
 				INFOPLIST_FILE = WMHSession/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = heheda.WMHSession;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CH999.ch999;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +534,7 @@
 				CB6214F21E84F36E000D0EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB6214F31E84F36E000D0EA5 /* Build configuration list for PBXNativeTarget "WMHSessionTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +543,7 @@
 				CB6214F51E84F36E000D0EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB6214F61E84F36E000D0EA5 /* Build configuration list for PBXNativeTarget "WMHSessionUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +552,7 @@
 				CB6214F81E84F36E000D0EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

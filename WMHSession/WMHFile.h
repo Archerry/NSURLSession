@@ -9,5 +9,6 @@
 #ifndef WMHFile_h
 #define WMHFile_h
 
+#define AllScreen self.view.frame.size
 
 #endif /* WMHFile_h */

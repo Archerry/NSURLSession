@@ -10,4 +10,7 @@
 
 @interface SessionViewController : UIViewController
 
+@property(nonatomic,copy)NSString *titleStr;
+@property(nonatomic,copy)NSString *whichOne;
+
 @end
